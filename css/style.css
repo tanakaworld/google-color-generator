@@ -1,0 +1,47 @@
+.blue {
+    color: #4285F4
+}
+
+.red {
+    color: #EA4335
+}
+
+.yellow {
+    color: #FBBC05
+}
+
+.green {
+    color: #34A853
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 200%;
+}
+
+#display {
+    text-align: left;
+    margin: 10px;
+}
+
+input[type=text] {
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.line {
+    line-height: 110%;
+}
