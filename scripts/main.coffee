@@ -2,7 +2,7 @@
   MainController = () ->
     @input = "Google.Color.Generator"
 
-    @colorStyles = ['blue', 'red', 'yellow', 'green']
+    @colorStyles = ['blue', 'red', 'yellow', 'blue', 'green’, 'red']
 
     @texts = (input) =>
       return [] unless input?
