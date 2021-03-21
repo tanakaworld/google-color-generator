@@ -1,28 +1,33 @@
+/*Colors adjustd as stated in https://www.behance.net/gallery/9028077/Google-Visual-Assets-Guidelines-Part-1*/
 .blue {
     color: #4285F4
 }
 
 .red {
-    color: #EA4335
+    color: #DB4437
 }
 
 .yellow {
-    color: #FBBC05
+    color: #F4B400
 }
 
 .green {
-    color: #34A853
+    color: #0F9D58
 }
 
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Product Sans', sans-serif;
     font-size: 200%;
 }
 
+
+
 #display {
+    display: flex;
     text-align: left;
     margin: 10px;
 }
+
 
 input[type=text] {
     padding: 5px;
@@ -44,4 +49,8 @@ input[type=submit] {
 
 .line {
     line-height: 110%;
+}
+
+span {
+    white-space: pre;
 }

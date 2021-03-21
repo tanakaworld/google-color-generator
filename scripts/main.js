@@ -4,7 +4,7 @@
     var MainController;
     MainController = function() {
       this.input = "Google.Color.Generator";
-      this.colorStyles = ['blue', 'red', 'yellow', 'green'];
+      this.colorStyles = ['blue', 'red', 'yellow', 'blue','green', 'red'];
       this.texts = (function(_this) {
         return function(input) {
           if (input == null) {
@@ -14,7 +14,7 @@
         };
       })(this);
       this.getColorClass = function(index) {
-        return this.colorStyles[index % 4];
+        return this.colorStyles[index % 6];
       };
     };
     return angular.module("googleColorGenerator", ["ngRoute"]).controller("MainController", MainController);
